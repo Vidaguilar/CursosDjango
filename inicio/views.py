@@ -14,7 +14,7 @@ def principal(request):
 def contacto(request):
     contenido="""<h2>Contacto</h2>
      <p>Nombre:<input type="text" name="nombre"></p>
-     <p>Mensaje:</p><p><textarea  cols="50" rows="10"></textarea></p>
+     <p>MeNsaje:</p><p><textarea  cols="50" rows="10"></textarea></p>
      <p><input type="button" name="enviar" value="Enviar"></p>"""
     return HttpResponse(menu + contenido)
 
